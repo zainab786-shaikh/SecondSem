@@ -1,0 +1,11 @@
+img {
+    border:5px solid black;
+    width:200px;
+    height: 300px;
+    margin: 15px;
+}
+h1 {
+    color: rgb(148, 33, 121); 
+    font-family: Viner Hand ITC;
+    text-align: center;
+}

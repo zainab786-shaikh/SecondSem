@@ -47,10 +47,7 @@
   height: 400px;
 	position: relative;
 	animation: 9s slider infinite;
-}
-
-
-#slider figure img {
+}#slider figure img {
 	width: 33.333333333%;
 	height : 100%;
 	float: left;
