@@ -1,11 +1,14 @@
 h1 {
     font-size: 50;
-
+    color: rgb(131, 4, 66);
+    font-family: Blackadder ITC;
+    text-align: center;
 }
 
 p {
     font-size: 25px;
 }
+
 .button {
     border: 5;
     color: rgb(154, 21, 21);
@@ -17,11 +20,12 @@ p {
     margin: 4px 2px;
     cursor: pointer;
 }
-div{
+
+div {
     text-align: center;
 }
-img{
-    width: 400;
-    height: 600;
-}
 
+img {
+    width: 400px;
+    height: 600px;
+}
