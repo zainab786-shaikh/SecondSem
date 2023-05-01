@@ -1,6 +1,6 @@
 .topnav {
-    background-color: #a00303;
-    overflow: hidden;
+  background-color: #a00303;
+  overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
@@ -29,30 +29,55 @@
   font-size: 17px;
   border-radius: 30px;
 }
+
 #slider {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 @keyframes slider {
-	0% { left: 0; }
-	30% { left: 0; }
-	33% { left: -100%; }
-	63% { left: -100%; }
-	66% { left: -200%; }
-	95% { left: -200%; }
-	100% { left: 0; }
+  0% {
+    left: 0;
+  }
+
+  30% {
+    left: 0;
+  }
+
+  33% {
+    left: -100%;
+  }
+
+  63% {
+    left: -100%;
+  }
+
+  66% {
+    left: -200%;
+  }
+
+  95% {
+    left: -200%;
+  }
+
+  100% {
+    left: 0;
+  }
 }
+
 #slider figure {
-	width: 300%;
+  width: 300%;
   height: 400px;
-	position: relative;
-	animation: 9s slider infinite;
-}#slider figure img {
-	width: 33.333333333%;
-	height : 100%;
-	float: left;
+  position: relative;
+  animation: 9s slider infinite;
 }
-h1{
+
+#slider figure img {
+  width: 33.333333333%;
+  height: 100%;
+  float: left;
+}
+
+h1 {
   text-align: center;
   text-decoration: double;
   font-style: italic;
